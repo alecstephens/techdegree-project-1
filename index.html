@@ -2,54 +2,74 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jane Smith's Profile</title>
+  <title>Alec Stephens's Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
   <body>
-
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">Jane Smith</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Experience</a></li>
-        </ul>
-    </div>
-
+    
     <header>
-      <img src="images/me.png" alt="Drawing of Jane Smith" class="profile-image">
-      <h1 class="tag name">Hello, I’m Jane.</h1>
-      <p class="tag location">My home is Portland, Oregon.</p>
+      <img src="images/profile-image.jpg" class="profile-image">
+      <h1 class="tag name">Hi, I'm Alec.</h1>
+      <p class="tag welcome">Enjoy Your Stay!</p>
     </header>
 
-    <main class="flex">
-      <div class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of building fantastic looking websites.</p>
-        <p>I’ve been a professional cook and gardener and am a life-long learner who's always interested in expanding my skills.</p>
-      </div> 
+    <nav>
+      <h2>Alec Stephens</h2>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>    
+          <li><a href="pages/projects.html">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+      <!-- this is the about section-->
+      <section class="flex" id="about">
+        <div class="card">
+          <h2>Background</h2>
+          <p>I've always been into technology. From a young age I knew that I wanted my career to involve some sort of technolgy.</p>
+          <p>This eventually led me to discover computer science. In which I learned that I was very interested in Web Development.</p>
+          <p>After going through one year of college, I decided to go a somewhat more self-taught route and look into other options.</p>
+        </div>
+
+        <div class="card">
+          <h2>Hobbies</h2>
+          <p>While a lot of my focus is on learning web development, I do have a life outside of it.</p>
+          <p> Some various hobbies I have include:</p>  
+          <ul>
+            <li>Running</li>
+            <li>Reading</li>
+            <li>Writing</li>
+          </ul>
+          <p>These are just a few things that I enjoy doing in my spare time.</p>
+        </div>
 
       <div class="card">
         <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
+        <p>When it comes to computer science and web development, there are so many things that I want to learn.</p>
+        <p>Some languages/frameworks that I want to master are:</p>
+        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
-          <li>Ruby</li>
-          <li>Rails</li>
+          <li>React</li>
+          <li>Node.Js</li>
         </ul>
-        <p>I’d like to work for a web design firm helping clients create an impressive online presence.</p>
-      </div> 
-
+        <p>Of course eventually I would like to know a lot more than just this. However, in order to get to that point, I need to start somewhere</p>
+      </div>
+    </section>
+    <!--this is the about section-->
     </main>
-    <footer>
+
+    <footer id="contact">
       <ul>
         <li><a href="#" class="social twitter">Twitter</a></li>
         <li><a href="#" class="social linkedin">LinkedIn</a></li>
         <li><a href="#" class="social github">Github</a></li>
       </ul>
-      <p class="copyright">Copyright 2015, Jane Smith</p>
+      <p class="copyright">Copyright 2021, Alec Stephens</p>
     </footer>
   </body>
-  </html>
+</html>

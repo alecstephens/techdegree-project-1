@@ -41,23 +41,27 @@ a:hover {
 }
 
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  text-align: center;  
+  display: block;
+  margin-right: auto;
+  color: black;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  float: left;
+  display: block
 }
 .nav a {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: black;
 }
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  color: white;
+  background: url('images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,7 +74,6 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -84,7 +87,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-.location {
+.welcome {
   background-color: #222;
   color: yellow;
 }
