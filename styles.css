@@ -9,13 +9,13 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: whitesmoke;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #999;
+  color: black;
 }
 a:hover {
   color: #6633ff;
@@ -37,7 +37,7 @@ a:hover {
   font-weight: 700;
   list-style-type: none;
   margin: 0 auto;
-  padding: 0;
+  padding: 0
 }
 
 .nav .name {
@@ -63,7 +63,7 @@ header {
   background: url('images/chandler-cruttenden-cCMySCLaY9U-unsplash.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 header {
@@ -79,14 +79,14 @@ header .profile-image {
 }
 
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(10deg);
 }
 
 .tag {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 } 
@@ -96,20 +96,52 @@ header .profile-image:hover {
   color: white;
 }
 
-.card {
-  margin: 30px;
-  padding: 20px 40px 40px;
+.home-card {
+  margin: 20px;
+  padding: 20px 40px 20px;
   max-width: 500px;
   text-align: left;
   color: black;
   background: white;
-  border-bottom: 4px solid #ccc;
-  border-radius: 6px;
-  transition: all .5s;
+  border-bottom: 4px solid white;
+  border-radius: 15px;
+  transition: all .7s;
 }
 
-.card:hover {
+.hobbies-card {
+  margin: 30px;
+  padding: 20px 40px 20px;
+  max-width: 500px;
+  text-align: left;
+  color: black;
+  background: white;
+  border-bottom: 4px solid white;
+  border-radius: 15px;
+  transition: all .7s;
+}
+
+.projects-card {
+  margin: 20px;
+  padding: 20px 40px 20px;
+  max-width: 500px;
+  text-align: left;
+  color: black;
+  background: white;
+  border-bottom: 4px solid white;
+  border-radius: 15px;
+  transition: all .7s;
+}
+
+.home-card:hover {
+  border-color: red;
+}
+
+.hobbies-card:hover {
   border-color: blue;
+}
+
+.projects-card:hover {
+  border-color: green;
 }
 
 ul.skills {
@@ -177,6 +209,7 @@ a.social:hover {
 .clearfix {
   clear: both;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
